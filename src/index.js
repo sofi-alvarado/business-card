@@ -13,8 +13,12 @@ root.render(
          <div className="business-card">
             <div className="info-section">
                 <Info />
-                <About />
-                <Interest />
+            </div>
+            <div className='about-section'>
+                  <About />
+            </div>
+            <div className='interest-section'>
+                  <Interest />
             </div>
         </div>
   </React.StrictMode>

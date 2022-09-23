@@ -14,10 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     width: 317px;
-    height: 716px;
+    height: 780px;
     background: #F5F5F5;
     border-radius: 10px 10px 10px 10px;
 }
+
+.interest-section {
+    margin-top: 0px;
+}
+
 .card-image {
     width: 317px;
     height: 317px;
@@ -78,12 +83,19 @@ body {
 }
 
 
-.about-title {
+.about-title, .interest-title {
     margin: 25px 35px 0px 35px;
 }
 
- .about-text {
+.about-section, .interest-section {
+    position: relative;
+    height: 110px;
+}
+
+
+ .about-text, .interest-text {
     margin: 0px 35px 35px 35px;
     font-size: 10.24px;
     line-height: 150%;
  }
+
