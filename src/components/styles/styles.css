@@ -10,6 +10,10 @@ body {
     background-color: #282D35;
 }
 
+.main-container {
+    display: flex; 
+    justify-content: center; 
+}
 .business-card {
     display: flex;
     flex-direction: column;
@@ -88,7 +92,7 @@ body {
 }
 
 .about-section, .interest-section {
-    position: relative;
+    
     height: 110px;
 }
 
@@ -99,3 +103,23 @@ body {
     line-height: 150%;
  }
 
+ .footer-section {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 317px;
+    height: 64px;
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+    
+ }
+
+ 
+ .footer-icons i {
+    color: #918E9B;
+    margin: 20px;
+    font-size: 1.4rem;
+    
+ }

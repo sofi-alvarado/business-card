@@ -11,6 +11,7 @@ function Interest() {
                     Pop culture ninja. Coffee fanatic.
                 </p>
         </div>
+        
     )
 }
 

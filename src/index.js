@@ -10,17 +10,27 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-         <div className="business-card">
-            <div className="info-section">
-                <Info />
+            <div className="main-container">
+                  <div className="business-card">
+                        <div className="info-section">
+                        <Info />
+                        </div>
+                        <div className='about-section'>
+                              <About />
+                        </div>
+                        <div className='interest-section'>
+                              <Interest />
+                        </div>
+                        <div className="footer-section">
+                              <div className="footer-icons"> 
+                                    <i className="bi-twitter bi-lg"></i>
+                                    <i className="bi-facebook"></i>
+                                    <i className="bi-instagram"></i>
+                                    <i className="bi-github"></i>
+                              </div>
+                        </div>
+                  </div>
             </div>
-            <div className='about-section'>
-                  <About />
-            </div>
-            <div className='interest-section'>
-                  <Interest />
-            </div>
-        </div>
   </React.StrictMode>
 );
 
