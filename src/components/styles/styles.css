@@ -10,7 +10,7 @@ body {
     background-color: #282D35;
 }
 
-.card-info {
+.business-card {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -85,3 +85,14 @@ body {
 
 }
 
+.about-title {
+    margin: 25px 35px 0px 35px;
+    text-align: left;
+}
+
+ .about-text {
+    margin: 0px 35px 35px 35px;
+    text-align: left;
+    font-size: 10.24px;
+    line-height: 150%;
+ }
