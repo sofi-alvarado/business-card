@@ -13,7 +13,6 @@ body {
 .business-card {
     display: flex;
     flex-direction: column;
-    text-align: center;
     width: 317px;
     height: 716px;
     background: #F5F5F5;
@@ -25,6 +24,30 @@ body {
     border-radius: 10px 10px 0px 0px;
 }
 
+
+.card-info {
+    text-align: center;
+}
+.card-name {
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #2B283A;
+}
+
+.card-job {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #F47D27;
+}
+
+.card-website {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #4A4E74;
+}
+
 .card-buttons--container {
    
     display: flex;
@@ -32,67 +55,35 @@ body {
     gap: 8px;
 }
 
-.btn-email {
+.btn-email, .btn-linkedin 
+{
     width: 115px;
     height: 34px;
-    background: #FFFFFF;
-    border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-    align-items: center;
 }
 
-.card-name {
-    margin-bottom: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    color: #2B283A;
-}
 
-.card-job {
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12.8px;
-    line-height: 15px;
-    color: #F47D27;
+.btn-email {
+ 
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
 }
-
-.card-website {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 150%;
-    text-align: center;
-    color: #4A4E74;
-}
-
 
 .btn-linkedin {
  
-    width: 115px;
-    height: 34px;
     color: #FFFFFF;
     background: #297FE5;
     border: 1px solid #297FE5;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 6px;
-
 }
+
 
 .about-title {
     margin: 25px 35px 0px 35px;
-    text-align: left;
 }
 
  .about-text {
     margin: 0px 35px 35px 35px;
-    text-align: left;
     font-size: 10.24px;
     line-height: 150%;
  }

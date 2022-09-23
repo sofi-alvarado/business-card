@@ -2,13 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './components/styles/styles.css';
 import reportWebVitals from './reportWebVitals';
-import BusinessCard from './components/BusinessCard'
+import Info from './components/Info';
+import About from './components/About';
+import Interest from './components/Interests';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <BusinessCard />
+         <div className="business-card">
+            <div className="info-section">
+                <Info />
+                <About />
+                <Interest />
+            </div>
+        </div>
   </React.StrictMode>
 );
 
