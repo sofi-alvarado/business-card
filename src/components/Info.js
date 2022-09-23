@@ -17,8 +17,7 @@ function Info() {
                 <div className="card-buttons--container">
                 
                     <button className="btn-email">Email</button>
-                    <button className="btn-linkedin">LinkedIn</button>
-              
+                    <button className="btn-linkedin">LinkedIn</button>         
             </div>
         </div>
     )
