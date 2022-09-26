@@ -5,10 +5,10 @@ function About() {
         <div className="about-main-container">
                 <h3 className="about-title">About</h3>
                 <p className="about-text">
-                    I am a frontend developer with a particular interest 
-                    in making things simple and automating daily tasks. 
-                    I try to keep up with security and best practices, 
-                    and am always looking for new things to learn.
+                    I am a frontend developer with a particular interest in
+                    seeking for the best way to enhance websites using the lastest 
+                    tendencies in layout designs in hand with best practices.
+                    Always looking for new things to learn.  
                 </p>
         </div>
     )

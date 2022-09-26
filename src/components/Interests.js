@@ -5,10 +5,9 @@ function Interest() {
         <div className='interest-main-container'>
                 <h3 className="interest-title">Interests</h3>
                 <p className="interest-text">
-                    Food expert. Music scholar. Reader. 
-                    Internet fanatic. Bacon buff. 
-                    Entrepreneur. Travel geek. 
-                    Pop culture ninja. Coffee fanatic.
+                        Music lover. Entrepenur. Love doing handmade crafts. Huge fan 
+                        of capybaras, cats, dogs and raccoons. Special interested in
+                        vintage thrifted stores.
                 </p>
         </div>
         
